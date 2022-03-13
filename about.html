@@ -29,6 +29,20 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <h5 class="d-none d-md-block">Viktoria Schneider</h5>
+          <h5 class="d-block d-md-none">VS</h5>
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active"><a href="/about.html" title="About">About</a></li>
+          <li><a href="/work.html" title="Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -53,6 +67,57 @@
           />
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-4 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding" title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-3">
+          <a
+            href="mailto:schneider.viktoria95@gmail.com"
+            class="email-link"
+            title="Email me"
+            >schneider.viktoria95@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-3">
+          <a
+            href="https://www.instagram.com/tshefu/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/tshefu"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="#" target="_blank" title="LinkedIn Profile"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <p class="text-center text-muted">
+          This project was coded by Viktoria Schneider and it's
+          <a
+            href="https://github.com/tshefu/portfolio-project"
+            target="_blank"
+            title="GitHub Respository"
+            class="respository-link"
+            >open-sourced</a
+          >
+          👀
+        </p>
+      </footer>
     </div>
   </body>
 </html>

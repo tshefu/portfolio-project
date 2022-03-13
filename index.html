@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Viktoria Schneider</title>
+    <meta
+      name="description"
+      content="Viktoria is a front-end engineer based in Vienna, Austria"
+    />
+    <title>Front-end developer - Viktoria Schneider</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,15 +35,15 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <h5 class="d-none d-md-block">Viktoria Schneider</h5>
           <h5 class="d-block d-md-none">VS</h5>
         </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About">About</a></li>
+          <li><a href="/work.html" title="Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -47,7 +51,11 @@
       <p>👋🏻 Hi, I am</p>
       <h1>Viktoria Schneider</h1>
       <p class="mb-4">Front-end developer, based in Austria</p>
-      <div><a href="#" class="btn btn-branding">Contact me</a></div>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
+      </div>
     </div>
     <p class="text-center m-5">Featured Projects</p>
     <div class="container">
@@ -64,7 +72,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -78,7 +86,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -102,7 +110,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -111,27 +119,51 @@
           class="contact-box d-flex justify-content-between mb-4 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a href="/contact.html" class="btn btn-branding" title="Contact me"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-3">
-          <a href="mailto:schneider.viktoria95@gmail.com" class="email-link"
+          <a
+            href="mailto:schneider.viktoria95@gmail.com"
+            class="email-link"
+            title="Email me"
             >schneider.viktoria95@gmail.com</a
           >
         </div>
-        <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/tshefu/" target="_blank"
+        <div class="social-links d-flex justify-content-center mb-3">
+          <a
+            href="https://www.instagram.com/tshefu/"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fab fa-instagram"></i
           ></a>
-          <a href="https://github.com/tshefu" target="_blank"
+          <a
+            href="https://github.com/tshefu"
+            target="_blank"
+            title="GitHub Profile"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" target="_blank" title="LinkedIn Profile"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
         </div>
+        <p class="text-center text-muted">
+          This project was coded by Viktoria Schneider and it's
+          <a
+            href="https://github.com/tshefu/portfolio-project"
+            target="_blank"
+            title="GitHub Respository"
+            class="respository-link"
+            >open-sourced</a
+          >
+          👀
+        </p>
       </footer>
     </div>
   </body>
