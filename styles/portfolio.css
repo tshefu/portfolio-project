@@ -1,12 +1,19 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
+  --branding-color: #89a28c;
+  --secondary-color: #a3a3a7;
+  --heading-font-family: "misto";
   --default-font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+  src: url(../fonts/misto.ttf);
+  font-family: "misto";
 }
 
 body {
   font-family: var(--default-font-family);
+  background-color: var(--secondary-color);
+  border: 8px solid #f9f9f9;
 }
 h1,
 h2,
@@ -39,8 +46,10 @@ p {
   line-height: 30px;
 }
 
+.logo {
+  color: var(--primary-color);
+}
 .hero {
-  background-color: var(--secondary-color);
   text-align: center;
   padding: 60px 20px;
   font-size: 16px;
@@ -50,7 +59,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0 auto;
-  color: #272142;
+  color: black;
   line-height: 1.5;
 }
 
@@ -142,7 +151,7 @@ footer {
 }
 
 footer .contact-box {
-  background-color: var(--secondary-color);
+  background-color: #f9f9f9;
   padding: 30px 120px;
   border-radius: 10px;
 }
