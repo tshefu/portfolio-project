@@ -1,6 +1,6 @@
 :root {
   --branding-color: #89a28c;
-  --secondary-color: #a3a3a7;
+  --secondary-color: #dfdfdf;
   --heading-font-family: "misto";
   --default-font-family: "Poppins", sans-serif;
 }
@@ -13,7 +13,6 @@
 body {
   font-family: var(--default-font-family);
   background-color: var(--secondary-color);
-  border: 8px solid #f9f9f9;
 }
 h1,
 h2,
@@ -48,7 +47,13 @@ p {
 
 .logo {
   color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
+
+.logo:hover {
+  color: var(--branding-color);
+}
+
 .hero {
   text-align: center;
   padding: 60px 20px;
@@ -104,15 +109,13 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
 }
 
-.btn-branding-outline {
+.btn-branding:hover {
   color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
+  background-color: white;
+  border-color: var(--branding-color);
 }
 
 .project-description {
@@ -144,6 +147,10 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+nav li.active a:hover {
+  color: white;
 }
 
 footer {
@@ -227,4 +234,29 @@ footer .social-links a:hover {
 
 .viktoria-picture {
   border-radius: 10px;
+}
+
+.project-picture {
+  max-height: 266px;
+  max-width: 253;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+.project-picture:hover {
+  opacity: 0.8;
+}
+
+.project-link {
+  font-weight: bolder;
+  transition: all 100ms ease-in-out;
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.project-link:hover {
+  color: white;
+  cursor: pointer;
 }
