@@ -32,7 +32,7 @@ h6 {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 80px;
   line-height: 1.5;
 }
 
@@ -84,7 +84,7 @@ p {
 }
 
 .content h1 {
-  font-size: 8vw;
+  font-size: 64px;
   line-height: 1.5;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .content p {
-  font-size: 4vw;
+  font-size: 14px;
 }
 
 .content {
@@ -210,11 +210,15 @@ footer .social-links a:hover {
 
 @media (max-width: 960px) {
   h1 {
-    font-size: 50px;
+    font-size: 30px !important;
   }
 
   h2 {
     font-size: 44px;
+  }
+
+  p {
+    font-size: 18px !important;
   }
 
   .btn {
