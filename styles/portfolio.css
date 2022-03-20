@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --branding-color: #89a28c;
   --secondary-color: #dfdfdf;
@@ -180,8 +186,8 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
-  background-color: var(--secondary-color);
+  color: white;
+  background-color: var(--branding-color);
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
@@ -189,8 +195,8 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
-  background-color: var(--branding-color);
+  color: var(--branding-color);
+  background-color: white;
 }
 
 .respository-link {
@@ -259,4 +265,50 @@ footer .social-links a:hover {
 .project-link:hover {
   color: white;
   cursor: pointer;
+}
+
+.message-input {
+  border-radius: 3px;
+  border-color: white;
+  height: 150px;
+  width: 300px;
+}
+
+.email-input {
+  width: 300px;
+  border-radius: 3px;
+  border-color: white;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+}
+
+.contact-form {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+
+label {
+  color: var(--branding-color);
 }
