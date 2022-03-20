@@ -32,7 +32,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 5vw;
   line-height: 1.5;
 }
 
@@ -84,7 +84,7 @@ p {
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 8vw;
   line-height: 1.5;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 4vw;
 }
 
 .content {
